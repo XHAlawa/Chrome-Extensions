@@ -1,0 +1,17 @@
+{
+    "name": "LinkedIn Important Posts Manager",
+    "version": "1.0.0",
+    "description": "LinkedIn Important Posts Manager",
+    "manifest_version": 3,
+    "author": "Ahmed Halawa",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.linkedin.com/*"
+            ],
+            "js": [
+                "webSiteModifier.js"
+            ]
+        }
+    ]
+}
